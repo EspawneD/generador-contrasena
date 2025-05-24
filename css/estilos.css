@@ -1,0 +1,25 @@
+body {
+    text-align: center;
+    background-color: rgb(15, 15, 15);
+    color: white;
+}
+
+button {
+    padding: 2em;
+    margin: 2em;
+}
+
+#resultado{
+    /*background-color: white; */
+    padding: 2em;
+    color: white;
+    visibility: hidden;
+}
+
+#error{
+    background-color: red;
+}
+
+#largo {
+    width: 3em;
+}

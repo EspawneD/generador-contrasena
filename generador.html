@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Generá tu contraseña</title>
+    <link href="css/estilos.css" rel="stylesheet">
+    <script src="js/generador.js" defer></script>
+</head>
+<body>
+    <h1>¿Necesitás una contraseña segura?</h1>
+    
+    <h2>Generá tu contraseña segura acá.</h2>
+
+    
+    <p>Elegí que querés que incluya:</p>
+    <div class="preguntas">
+        <p>Especifique el largo de la clave, de 8 a 36 carácteres.</p>
+        <p><input id="largo"/></p>
+        <label><input type="checkbox" id="mayus">Letras Mayúsculas</label>
+        <label><input type="checkbox" id="minus">Letras Minúsculas</label>
+        <label><input type="checkbox" id="numeros">Números</label>
+        <label><input type="checkbox" id="simbolos">Símbolos</label>
+    </div>
+    
+    <div id="error"></div>
+    
+    <button id="generador">Generar</button>
+    
+    <div id="resultado"></div>
+</body>
+</html>
